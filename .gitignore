@@ -1,6 +1,30 @@
+# Caches y temporales de Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Notebooks
 .ipynb_checkpoints/
+
+# Datos sensibles / credenciales (NUNCA deben subirse al repo)
+.env
+.env.*
+*.pem
+*.key
+*.token
+secrets/
+credentials/
+
+# Archivos generados / pesados
 *.log
 *.xlsx
 *.tmp
+*.swp
+
+# Sistema operativo / editores
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
